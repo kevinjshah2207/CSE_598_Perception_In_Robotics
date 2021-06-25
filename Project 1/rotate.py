@@ -7,7 +7,6 @@ def draw_initial():
     rospy.init_node('my_initials', anonymous=True)
     velocity_publisher = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
     vel_msg = Twist()
-
     #Speed of Turtle
     PI = 3.1415
     speed = 1
