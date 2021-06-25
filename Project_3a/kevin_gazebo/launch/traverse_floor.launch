@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Assumes that a turtlebot3 is already spawned in -->
+  <node pkg="kevin_gazebo" type="traverse_floor.py" name="traverse_floor_node"/>
+</launch>
